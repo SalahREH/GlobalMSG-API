@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "globalmsgAPI", "globalmsgAPI\globalmsgAPI.csproj", "{2FE907A8-25D6-4CAC-9C23-995D67B9B452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "globalmsgAPI.Tests", "globalmsgAPI.Tests\globalmsgAPI.Tests.csproj", "{C4060A30-D193-4790-9982-BFF0CDCFFDE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE907A8-25D6-4CAC-9C23-995D67B9B452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE907A8-25D6-4CAC-9C23-995D67B9B452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE907A8-25D6-4CAC-9C23-995D67B9B452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE907A8-25D6-4CAC-9C23-995D67B9B452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4060A30-D193-4790-9982-BFF0CDCFFDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4060A30-D193-4790-9982-BFF0CDCFFDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4060A30-D193-4790-9982-BFF0CDCFFDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4060A30-D193-4790-9982-BFF0CDCFFDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB4615AF-1019-43F0-A278-1C4CB7B9B9A9}
+	EndGlobalSection
+EndGlobal

@@ -13,7 +13,7 @@ This is the backend for an instant messaging application developed in C#.
 1. Clone this repository on your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/repo-name.git
+   git clone https://github.com/SalahREH/GlobalMSG-API.git
    ```
 
 2. Open the project in Visual Studio.
@@ -36,17 +36,17 @@ This is the backend for an instant messaging application developed in C#.
 
 1. Build and run the application from Visual Studio.
 
-2. The application will be available at `https://localhost:5001` by default. You can change the port in `launchSettings.json` if needed.
+2. The application will be available at `https://localhost:7211` by default. You can change the port in `launchSettings.json` if needed.
 
 ## Swagger Enabled
 
 To explore and test the available APIs simply run the project and use the Swagger UI.
 
 The available APIs include:
-- POST `/api/accounts` - Creates a new user.
-- POST `/api/auth/login` - Authenticates a user.
-- POST `/api/auth/refreshtoken` - Refreshes expired access tokens.
-- GET `/api/protected` - Protected controller for testing role-based authorization.
+- GET `/api/Message` - Creates a new user.
+- POST `/api/Message` - Authenticates a user.
+- PUT `/api/Message/{id}` - Refreshes expired access tokens.
+- DELETE `/api/Message/{id}` - Protected controller for testing role-based authorization.
 
 ## Features
 
